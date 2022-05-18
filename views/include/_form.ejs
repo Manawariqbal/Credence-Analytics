@@ -1,0 +1,26 @@
+ <!-- form handling -->
+ <form action="/api/users" method="POST" id="add_user">
+    <div class="new_user">
+        <div class="form-group">
+            <label for="name" class="text-light">Name</label>
+            <input type="hidden" name="id" value="">
+            <input type="text" name="name" value="" placeholder="Harry Potter ">
+        </div>
+        
+        <div class="form-group">
+            <label for="img" class="text-light">img</label>
+            <input type="text" name="img" value="" placeholder="Enter the url of the img">
+        </div>
+        <div class="form-group">
+            <label for="summary" class="text-light">Summary</label>
+            <input type="text" name="summary" value="" placeholder="Enter the summary of the movie">
+        </div>
+
+       
+
+        <div class="form-group">
+            <button type="submit" class="btn text-dark update">Save</button>
+        </div>
+
+    </div>
+</form>
